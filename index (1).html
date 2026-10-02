@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RA 8293 – Intellectual Property Code of the Philippines</title>
+<meta name="description" content="Study guide on Republic Act No. 8293, the Intellectual Property Code of the Philippines, with focus on software, AI and copyright.">
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--text:#1c2333;--muted:#5a6478;--pri:#1d4ed8;--acc:#e8b100;--line:#dfe3ec}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1420;--card:#171e2e;--text:#e6e9f2;--muted:#9aa5bd;--pri:#6b9bff;--line:#2a344a}}
+:root[data-theme=dark]{--bg:#0f1420;--card:#171e2e;--text:#e6e9f2;--muted:#9aa5bd;--pri:#6b9bff;--line:#2a344a}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+header{position:sticky;top:0;z-index:30;height:56px;background:var(--card);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 1rem;gap:.6rem}
+.hl{display:flex;align-items:center;gap:.7rem;min-width:0}
+.brand{font-weight:700;color:var(--pri);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand small{display:none;color:var(--muted);font-weight:400;margin-left:.5rem}
+.btns button{background:none;border:1px solid var(--line);color:var(--text);border-radius:6px;padding:.35rem .65rem;cursor:pointer;font-size:1.05rem;line-height:1}
+.sidebar{position:fixed;top:56px;bottom:0;left:0;width:270px;max-width:82vw;background:var(--card);border-right:1px solid var(--line);overflow-y:auto;padding:1rem .7rem;z-index:20;transform:translateX(-100%);transition:transform .25s}
+.sidebar.open{transform:none}
+.sidebar h4{margin:.2rem .6rem .6rem;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sidebar a{display:flex;gap:.6rem;align-items:center;padding:.5rem .7rem;color:var(--text);text-decoration:none;border-radius:8px;font-size:.9rem}
+.sidebar a b{min-width:1.6rem;color:var(--acc);font-size:.8rem}
+.sidebar a:hover{background:var(--bg)}
+.sidebar a.active{background:var(--pri);color:#fff}.sidebar a.active b{color:#fff}
+.overlay{display:none;position:fixed;inset:56px 0 0 0;background:rgba(0,0,0,.45);z-index:15}
+.overlay.open{display:block}
+.hero{background:linear-gradient(135deg,#12296b,#1d4ed8);color:#fff;text-align:center;padding:4rem 1.2rem}
+.hero h1{margin:.2rem 0;font-size:clamp(1.8rem,5vw,3rem)}
+.hero p{max-width:640px;margin:.8rem auto}
+.cta{display:inline-block;background:var(--acc);color:#111;padding:.7rem 1.4rem;border-radius:8px;text-decoration:none;font-weight:700;margin-top:.6rem}
+main{max-width:980px;margin:auto;padding:1rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.4rem;margin:1.2rem 0}
+h2{margin-top:0;color:var(--pri);font-size:1.5rem}h2 span{color:var(--acc);margin-right:.4rem}
+h3{margin-bottom:.3rem}
+.grid{display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.box{border:1px solid var(--line);border-left:4px solid var(--pri);border-radius:8px;padding:.8rem;background:var(--bg)}
+.box h3{margin:0 0 .2rem;font-size:1rem}.box p{margin:0;font-size:.9rem;color:var(--muted)}
+.note{background:rgba(232,177,0,.15);border-left:4px solid var(--acc);padding:.7rem 1rem;border-radius:6px;margin:1rem 0}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:.5rem;text-align:left;vertical-align:top}th{background:var(--bg)}
+details{border:1px solid var(--line);border-radius:8px;margin:.5rem 0;padding:.6rem .9rem;background:var(--bg)}
+summary{cursor:pointer;font-weight:600}
+.quiz button{margin:.2rem .2rem 0 0;padding:.4rem .8rem;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer}
+#fb{font-weight:600;margin-top:.5rem}
+footer{text-align:center;color:var(--muted);padding:2rem 1rem;font-size:.85rem}
+@media(min-width:900px){.brand small{display:inline}.sidebar{transform:none}.overlay{display:none!important}#menu{display:none}.page{margin-left:270px}}
+</style>
+</head>
+<body>
+<header>
+<div class="hl"><button id="menu" class="btns" aria-label="Open menu" style="background:none;border:1px solid var(--line);color:var(--text);border-radius:6px;padding:.35rem .65rem;cursor:pointer;font-size:1.05rem">☰</button>
+<span class="brand">⚖️ RA 8293<small>Intellectual Property Code of the Philippines</small></span></div>
+<div class="btns"><button id="theme" aria-label="Toggle dark mode">🌓</button></div>
+</header>
+<aside class="sidebar" id="nav" aria-label="Sections"></aside>
+<div class="overlay" id="ov"></div>
+<div class="page">
+<div class="hero" id="home">
+<h1>Intellectual Property Code of the Philippines</h1>
+<p>Republic Act No. 8293: what it protects, who owns your code, and what changes in the age of AI.</p>
+<a class="cta" href="#about">Start Learning</a>
+</div>
+
+<main>
+<section id="about"><h2><span>02</span>About RA 8293</h2>
+<p>RA 8293, the <b>Intellectual Property Code of the Philippines</b>, was signed on June 6, 1997 and took effect on January 1, 1998. It consolidated earlier IP laws, created the <b>Intellectual Property Office of the Philippines (IPOPHL)</b>, and aligned Philippine law with the WTO TRIPS Agreement.</p>
+<div class="grid">
+<div class="box"><h3>Part I – IPOPHL</h3><p>Creates the office, its Bureaus and the Documentation, Information and Technology Transfer Bureau.</p></div>
+<div class="box"><h3>Part II – Patents</h3><p>Inventions that are new, involve an inventive step and are industrially applicable.</p></div>
+<div class="box"><h3>Part III – Trademarks</h3><p>Marks, service marks, collective marks and trade names.</p></div>
+<div class="box"><h3>Part IV – Copyright</h3><p>Original literary and artistic works, including computer programs.</p></div>
+<div class="box"><h3>Part V – Final Provisions</h3><p>Repeals, transitory rules and effectivity.</p></div>
+</div>
+<div class="note">Amendments: RA 10372 (2013) amended copyright provisions. Related laws include RA 9150 (layout-designs of integrated circuits) and RA 10055 (technology transfer).</div>
+</section>
+
+<section id="ipr"><h2><span>03</span>Intellectual Property Rights</h2>
+<p>Section 4 identifies the rights covered by the Code:</p>
+<div class="grid">
+<div class="box"><h3>Copyright and related rights</h3><p>Books, music, art, films, software.</p></div>
+<div class="box"><h3>Trademarks and service marks</h3><p>Brand names, logos, slogans.</p></div>
+<div class="box"><h3>Geographic indications</h3><p>Origin-linked goods.</p></div>
+<div class="box"><h3>Industrial designs</h3><p>Ornamental look of a product.</p></div>
+<div class="box"><h3>Patents</h3><p>Inventions, utility models.</p></div>
+<div class="box"><h3>Layout-designs of ICs</h3><p>Chip topographies.</p></div>
+<div class="box"><h3>Undisclosed information</h3><p>Trade secrets and confidential know-how.</p></div>
+</div>
+</section>
+
+<section id="source"><h2><span>04</span>Source Code Ownership</h2>
+<p>Under Sec. 178, ownership depends on how the code was created:</p>
+<div class="tbl"><table>
+<tr><th>Situation</th><th>Who owns the copyright</th></tr>
+<tr><td>Independent developer, own initiative</td><td>The developer (author).</td></tr>
+<tr><td>Employee, coding is part of regular duties</td><td>The employer, even if the employee used personal time, but facilities are the employer's (Sec. 178.3).</td></tr>
+<tr><td>Employee, work outside regular duties</td><td>The employee, though the employer has a preferential right to acquire it.</td></tr>
+<tr><td>Commissioned work (freelancer, outsourcing)</td><td>The creator keeps the copyright unless a written agreement says otherwise; the commissioner owns the physical work (Sec. 178.4).</td></tr>
+<tr><td>Joint authors</td><td>Co-owned; rules on joint works apply.</td></tr>
+</table></div>
+<div class="note"><b>Tip:</b> Always put ownership and assignment terms in writing before starting a project.</div>
+</section>
+
+<section id="copyright"><h2><span>05</span>Copyright and Software</h2>
+<ul>
+<li>Sec. 171.4 defines a <b>computer program</b> as a set of instructions that makes a computer perform a task. Sec. 172 protects it as a literary work.</li>
+<li>Protection is <b>automatic</b> from creation; registration and deposit are optional but help as evidence.</li>
+<li>Copyright protects <b>expression</b> (source and object code, documentation), not <b>ideas, algorithms or methods</b> (Sec. 175 and Sec. 172.2 principle).</li>
+<li><b>Economic rights</b> (Sec. 177): reproduce, adapt, distribute, rent, publicly display, and make available to the public.</li>
+<li><b>Moral rights</b> (Secs. 193-198): attribution and integrity.</li>
+<li><b>Term:</b> generally the life of the author plus 50 years after death.</li>
+<li><b>Patents:</b> computer programs "as such" are excluded from patentability (Sec. 22.2), though inventions with technical effect may qualify.</li>
+</ul>
+</section>
+
+<section id="ai"><h2><span>06</span>AI-Generated Code &amp; IP</h2>
+<p>RA 8293 was written in 1997 and does not mention AI. Copyright is built around a human <b>author</b> who makes an original creation, so key questions are open:</p>
+<div class="grid">
+<div class="box"><h3>Authorship</h3><p>Purely machine-generated output likely has no human author, so its copyright status is uncertain in the Philippines.</p></div>
+<div class="box"><h3>Human contribution</h3><p>Code you meaningfully write, select, arrange or modify has a stronger claim than raw output.</p></div>
+<div class="box"><h3>Training data risk</h3><p>AI may reproduce licensed or copyrighted snippets (e.g., GPL code), creating infringement exposure.</p></div>
+<div class="box"><h3>Tool terms</h3><p>The AI provider's terms usually decide who may use the output commercially.</p></div>
+</div>
+<div class="note">Practical rule: review, test and understand AI code, check licenses, and document your human input.</div>
+</section>
+
+<section id="aiagree"><h2><span>07</span>AI Usage Agreement</h2>
+<p>Organizations should adopt a written policy or agreement covering AI tools. Typical clauses:</p>
+<ul>
+<li><b>Permitted tools</b> and approved use cases.</li>
+<li><b>Confidentiality:</b> no pasting of trade secrets, credentials, client data or personal data into public AI tools.</li>
+<li><b>Ownership</b> of AI-assisted output, assigned to the company or client.</li>
+<li><b>Disclosure:</b> when AI use must be declared to employers, clients or instructors.</li>
+<li><b>Review duty:</b> human verification for security, licensing and accuracy.</li>
+<li><b>Data privacy:</b> compliance with the Data Privacy Act (RA 10173).</li>
+<li><b>Liability and sanctions</b> for violations.</li>
+</ul>
+</section>
+
+<section id="secret"><h2><span>08</span>Software as Trade Secret</h2>
+<p>Sec. 4.7 covers <b>undisclosed information</b>, consistent with Article 39 of TRIPS. Source code can be a trade secret if it:</p>
+<ol><li>is secret and not generally known;</li><li>has commercial value because it is secret; and</li><li>is subject to reasonable steps to keep it secret (NDAs, access control, encryption).</li></ol>
+<p>Unlike copyright, a trade secret has no fixed term: it lasts as long as secrecy is maintained. It does not protect against independent discovery or reverse engineering where lawful. Software can be protected by <b>both</b> copyright and trade secret at once.</p>
+</section>
+
+<section id="fair"><h2><span>09</span>Fair Use &amp; Legal Limitations</h2>
+<p>Sec. 185 allows use of a copyrighted work for criticism, comment, news reporting, teaching, scholarship and research. Courts weigh four factors:</p>
+<div class="grid">
+<div class="box"><h3>1. Purpose and character</h3><p>Commercial or non-profit educational?</p></div>
+<div class="box"><h3>2. Nature of the work</h3><p>Factual or creative?</p></div>
+<div class="box"><h3>3. Amount used</h3><p>How much and how important a part?</p></div>
+<div class="box"><h3>4. Market effect</h3><p>Does it harm the original's value?</p></div>
+</div>
+<p>Other limitations (Sec. 184 onward) include limited private copying, library and archival use, and certain acts by lawful users of software such as making backup copies. Fair use is decided case by case.</p>
+</section>
+
+<section id="agreements"><h2><span>10</span>Intellectual Property Agreements</h2>
+<div class="tbl"><table>
+<tr><th>Agreement</th><th>Purpose</th></tr>
+<tr><td>Assignment</td><td>Transfers ownership; must be in writing.</td></tr>
+<tr><td>License</td><td>Permits use while the owner keeps ownership (exclusive, non-exclusive, open source such as MIT, GPL, Apache).</td></tr>
+<tr><td>EULA / Terms of Use</td><td>Rules for end users of software.</td></tr>
+<tr><td>NDA</td><td>Protects confidential information and trade secrets.</td></tr>
+<tr><td>Employment IP clause</td><td>Defines ownership of work created on the job.</td></tr>
+<tr><td>Work-for-hire / commission contract</td><td>Fixes who owns commissioned code.</td></tr>
+<tr><td>Non-compete / non-solicit</td><td>Limits competitive use of know-how, within reasonable bounds.</td></tr>
+</table></div>
+</section>
+
+<section id="plagiarism"><h2><span>11</span>Copyright vs. Plagiarism</h2>
+<div class="tbl"><table>
+<tr><th></th><th>Copyright infringement</th><th>Plagiarism</th></tr>
+<tr><td>Nature</td><td>Legal violation</td><td>Ethical / academic offense</td></tr>
+<tr><td>Core wrong</td><td>Using protected work without permission</td><td>Passing off another's work as your own</td></tr>
+<tr><td>Consequence</td><td>Civil damages, criminal penalties</td><td>Failing grade, expulsion, job loss</td></tr>
+<tr><td>Can attribution fix it?</td><td>No, permission or license is still needed</td><td>Yes, proper citation resolves it</td></tr>
+</table></div>
+<p>The two can overlap: copying code without permission <i>and</i> claiming it as yours is both. Public-domain work can be plagiarized but not infringed.</p>
+</section>
+
+<section id="infringe"><h2><span>12</span>Infringement Issues</h2>
+<ul>
+<li><b>Examples:</b> software piracy, cracked licenses, copying code from a repository ignoring its license, using unlicensed libraries, selling copied apps, removing copyright notices.</li>
+<li><b>Civil remedies</b> (Sec. 216): injunction, damages, impounding and destruction of infringing copies.</li>
+<li><b>Criminal penalties</b> (Sec. 217): imprisonment and fines, increasing for repeat offenses.</li>
+<li><b>Administrative:</b> IPOPHL's Bureau of Legal Affairs handles IP disputes.</li>
+<li><b>Prevention:</b> track licenses, use open-source compliance tools, keep records of original work.</li>
+</ul>
+</section>
+
+<section id="cases"><h2><span>13</span>Case Studies / Scenarios</h2>
+<p>Click each item to reveal the analysis.</p>
+<details><summary>Case: Habana v. Robles (G.R. 131522, 1999)</summary>The Supreme Court found that authors of an English textbook copied substantial portions of another's work. Lesson: copying a substantial part without permission is infringement, and acknowledging a source in a bibliography does not excuse extensive copying.</details>
+<details><summary>Case: Joaquin v. Drilon (G.R. 108946, 1999)</summary>Concerned a TV game show format. The Court stressed that copyright protects the expression, not general ideas, and that infringement requires substantial similarity of expression. Lesson: for software, similar ideas or functions alone are not infringement.</details>
+<details><summary>Case: Pearl &amp; Dean v. Shoemart (G.R. 148222, 2003)</summary>Copyright covered the artwork of light boxes but not the boxes themselves, and patent protection had not been properly secured. Lesson: choose the right type of IP protection for what you want to protect.</details>
+<details><summary>Scenario 1: Employee takes the code</summary>A developer writes a payroll module as part of her job, then reuses it for her own startup. Under Sec. 178.3 the employer likely owns the copyright, so this may be infringement and breach of confidentiality.</details>
+<details><summary>Scenario 2: Student pastes AI code</summary>A student submits AI-generated code as his own work, when the course bans AI. Copyright may not be the issue, but it is academic dishonesty (plagiarism-type misconduct) and breach of policy.</details>
+<details><summary>Scenario 3: Freelancer without a contract</summary>A freelancer builds a website for a client with no written contract. By default the freelancer keeps the copyright (Sec. 178.4), and the client may have only an implied license. Lesson: write an assignment clause.</details>
+<details><summary>Scenario 4: GPL snippet in a closed app</summary>A company copies GPL-licensed code into its proprietary product. This violates the license terms and may be infringement; the company must comply with GPL or remove the code.</details>
+<div class="quiz"><h3>Quick check</h3>
+<p>Who owns code an employee writes as part of regular duties?</p>
+<button data-a="0">The employee</button><button data-a="1">The employer</button><button data-a="0">The public</button>
+<div id="fb"></div></div>
+</section>
+
+<section id="refs"><h2><span>14</span>References</h2>
+<ul>
+<li>Republic Act No. 8293, Intellectual Property Code of the Philippines (1997). <a href="https://lawphil.net/statutes/repacts/ra1997/ra_8293_1997.html" target="_blank" rel="noopener">LawPhil</a></li>
+<li>Republic Act No. 10372 (2013), amending RA 8293. <a href="https://lawphil.net" target="_blank" rel="noopener">LawPhil</a></li>
+<li>Intellectual Property Office of the Philippines. <a href="https://www.ipophil.gov.ph" target="_blank" rel="noopener">ipophil.gov.ph</a></li>
+<li>Supreme Court E-Library (case decisions). <a href="https://elibrary.judiciary.gov.ph" target="_blank" rel="noopener">elibrary.judiciary.gov.ph</a></li>
+<li>WTO TRIPS Agreement, Article 39. <a href="https://www.wto.org" target="_blank" rel="noopener">wto.org</a></li>
+<li>World Intellectual Property Organization. <a href="https://www.wipo.int" target="_blank" rel="noopener">wipo.int</a></li>
+<li>Republic Act No. 10173, Data Privacy Act of 2012.</li>
+<li>Course lesson notes on RA 8293 (instructor-provided).</li>
+</ul>
+<div class="note">Educational use only. This site is a study aid, not legal advice. Verify section numbers against the official text of the law.</div>
+</section>
+</main>
+<footer>Computer Laboratory Activity · RA 8293 Website · Built with HTML, CSS and JavaScript</footer>
+</div>
+
+<script>
+const secs=[...document.querySelectorAll("main section")];
+const nav=document.getElementById("nav"),ov=document.getElementById("ov");
+nav.innerHTML='<h4>Contents</h4><a href="#home"><b>01</b>Home</a>'+secs.map(s=>{const t=s.querySelector("h2");return `<a href="#${s.id}"><b>${t.querySelector("span").textContent}</b>${t.lastChild.textContent}</a>`}).join("");
+const links=[...nav.querySelectorAll("a")];
+const toggle=o=>{nav.classList.toggle("open",o);ov.classList.toggle("open",o)};
+document.getElementById("menu").onclick=()=>toggle(!nav.classList.contains("open"));
+ov.onclick=()=>toggle(false);
+links.forEach(a=>a.onclick=()=>toggle(false));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle("active",l.getAttribute("href")==="#"+e.target.id))}}),{rootMargin:"-40% 0px -55% 0px"});
+secs.forEach(s=>io.observe(s));io.observe(document.getElementById("home"));
+document.getElementById("theme").onclick=()=>{const r=document.documentElement;const dark=getComputedStyle(r).getPropertyValue("--bg").trim()==="#0f1420";r.dataset.theme=dark?"light":"dark"};
+document.querySelectorAll(".quiz button").forEach(b=>b.onclick=()=>{const f=document.getElementById("fb");const ok=b.dataset.a==="1";f.textContent=ok?"✅ Correct! (Sec. 178.3)":"❌ Try again.";f.style.color=ok?"#16a34a":"#dc2626"});
+</script>
+</body>
+</html>
